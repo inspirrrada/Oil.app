@@ -1002,7 +1002,7 @@ body {
 
 .screen-10 .container {
 	max-width: 980px;
-	padding: 55px 0 75px 0;
+	padding: 55px 0 65px 0;
 	box-sizing: border-box;
 	text-align: center;
 }
@@ -1032,6 +1032,40 @@ body {
 
 .screen-11 {
 	background: url("../img/bg-img_screen11.jpg") no-repeat;
+}
+
+.screen-11 .container {
+	max-width: 980px;
+	min-height: 960px;
+	padding: 60px 0 0 0;
+	box-sizing: border-box;
+	text-align: center;
+
+}
+
+.screen-11 h2 {
+	font-size: 52px;
+	line-height: 60px;
+	font-weight: normal;
+	color: white;
+}
+
+.delivery-block {
+	position: relative;
+}
+
+.screen-11 img {
+	position: absolute;
+}
+
+.screen-11 img:nth-child(1) {
+	right: -80px;
+	top: -30px;
+}
+
+.screen-11 img:nth-child(2) {
+	top: 418px;
+	right: -35px;
 }
 
 .footer {

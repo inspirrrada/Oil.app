@@ -616,13 +616,13 @@ body {
 	position: relative;
 }
 
-.pointer-right {
+.screen-6 .pointer-right {
 	position: absolute;
 	right: -75px;
 	top: 200px;
 }
 
-.pointer-left {
+.screen-6 .pointer-left {
 	position: absolute;
 	left: -75px;
 	top: 200px;
@@ -998,6 +998,36 @@ body {
 
 .screen-10 {
 	background: url("../img/bg-img_screen10.jpg") no-repeat;
+}
+
+.screen-10 .container {
+	max-width: 980px;
+	padding: 55px 0 75px 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.screen-10 h2 {
+	font-size: 52px;
+	line-height: 60px;
+	font-weight: normal;
+}
+
+.labeling {
+	position: relative;
+	margin-top: 50px;
+}
+
+.screen-10 .pointer-right {
+	position: absolute;
+	right: 0;
+	top: 200px;
+}
+
+.screen-10 .pointer-left {
+	position: absolute;
+	left: 0;
+	top: 200px;
 }
 
 .screen-11 {

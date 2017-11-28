@@ -1094,7 +1094,7 @@ body {
 
 .screen-12 .right-block {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	width: 49%
 }
 
@@ -1103,23 +1103,36 @@ body {
 	font-size: 52px;
 	line-height: 28px;
 	color: #7d6940;
-	margin-bottom: 35px;
+	margin-bottom: 50px;
+	margin-top: 80px;
 }
 
 .screen-12 p {
 	margin-bottom: 40px;
 }
 
-.form-right-block {
-	display: inline-block;
-	vertical-align: middle;
-	width: 49%;
+/*.form-right-block {*/
+	/*display: inline-block;*/
+	/*vertical-align: middle;*/
+	/*width: 49%;*/
+/*}*/
+
+/*.form-left-block {*/
+	/*display: inline-block;*/
+	/*vertical-align: middle;*/
+	/*width: 39%;*/
+/*}*/
+
+.screen-12 input[type=text] {
+	margin-left: 60px;
 }
 
-.form-left-block {
-	display: inline-block;
-	vertical-align: middle;
-	width: 39%;
+.screen-12 input[type=tel] {
+	margin-left: 12px;
+}
+
+.screen-12 button {
+	margin-left: 190px;
 }
 
 /*.manager-form {*/
@@ -1131,6 +1144,10 @@ body {
 	/*background-color: white;*/
 	/*box-sizing: border-box;*/
 /*}*/
+
+.manager-form {
+	position: relative;
+}
 
 .manager-form input {
 	width: 270px;
@@ -1160,6 +1177,13 @@ body {
 .manager-form button:hover {
 	cursor: pointer;
 	background-color: #b33625;
+}
+
+.manager-form img {
+	position: absolute;
+	z-index: -1;
+	bottom: 146px;
+	right: -15px;
 }
 
 .footer {

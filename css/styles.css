@@ -1186,7 +1186,40 @@ body {
 	right: -15px;
 }
 
-.footer {
+footer {
 	background: url("../img/bg-img_footer.jpg");
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+}
+
+footer .container {
+	max-width: 980px;
+}
+
+.footer-logo {
+	float: left;
+	width: 330px;
+}
+
+.footer-contacts {
+	float: right;
+	width: 285px;
+}
+
+.footer-contacts a {
+	font-size: 23px;
+	line-height: 24px;
+	color: white;
+	border-bottom: 1px dashed white;
+}
+
+.footer-contacts a:hover {
+	color: #db422c;
+	border-bottom: 1px dashed #db422c;
+}
+
+.copyrights {
+	margin-left: 400px;
 }
 

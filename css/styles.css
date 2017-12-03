@@ -658,13 +658,17 @@ h1 {
 	background: url("../img/bg-img_screen06.jpg") no-repeat;
 }
 
+.screen-6 .container {
+	padding: 5% 0 0 0;
+	text-align: center;
+}
+
 .screen-6 h2 {
 	font-size: 52px;
 	line-height: 60px;
 	color: white;
 	font-weight: normal;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 5%;
 }
 
 
@@ -715,7 +719,7 @@ h1 {
 	top: 0;
 	bottom: 0;
 	right: 0;
-
+	text-align: left;
 }
 
 .screen-7 {
@@ -1361,6 +1365,21 @@ footer {
 
 }
 
+@media (max-width: 980px) {
+	.screen-6 .pointer-left {
+		left: -50px;
+	}
+
+	.screen-6 .pointer-right {
+		right: -50px;
+	}
+
+	.screen-6 h2 {
+		font-size: 45px;
+		line-height: 50px;
+	}
+}
+
 @media (max-width: 955px) {
 	.line {
 		right: 362px;
@@ -1397,6 +1416,30 @@ footer {
 		width: 51%;
 		top: 40px;
 	}
+
+	.screen-6 .pointer-left {
+		left: -45px;
+		top: 180px;
+	}
+
+	.screen-6 .pointer-right {
+		right: -45px;
+		top: 180px;
+	}
+
+	.diagram-container {
+		max-width: 85%;
+	}
+
+	.diagram-comment {
+		max-width: 85%;
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	.comment-text {
+		text-align: center;
+	}
 }
 
 @media (max-width: 914px) {
@@ -1427,6 +1470,18 @@ footer {
 		right: 327px;
 	}
 
+}
+
+@media (max-width: 844px) {
+	.screen-6 h2 {
+		font-size: 38px;
+		line-height: 44px;
+	}
+
+	.comment-text {
+		font-size: 18px;
+		padding: 25px 10px 25px 10px;
+	}
 }
 
 @media (max-width: 841px) {
@@ -1570,6 +1625,19 @@ footer {
 	.line {
 		top: 41px;
 	}
+
+	.screen-6 .pointer-right {
+		top: 135px;
+	}
+
+	.screen-6 .pointer-left {
+		top: 135px;
+	}
+
+	.comment-text {
+		font-size: 16px;
+		line-height: 21px;
+	}
 }
 
 @media (max-width: 690px) {
@@ -1679,6 +1747,33 @@ footer {
 	.line {
 		right: 245px;
 	}
+
+	.diagram-container {
+		max-width: 80%;
+	}
+
+	.diagram-comment {
+		max-width: 80%;
+	}
+
+	.diagram-comment img {
+		min-height: 130px;
+	}
+
+	.screen-6 .pointer-left {
+		top: 105px;
+	}
+
+	.screen-6 .pointer-right {
+		top: 105px;
+	}
+
+	.screen-6 h2 {
+		font-size: 35px;
+		line-height: 40px;
+	}
+
+
 }
 
 @media (max-width: 621px) {
@@ -1819,6 +1914,18 @@ footer {
 	.indicator-text-5 {
 		left: 225px;
 	}
+
+	.diagram-comment img {
+		min-height: 150px;
+	}
+
+	.screen-6 .pointer-left {
+		top: 80px;
+	}
+
+	.screen-6 .pointer-right {
+		top: 80px;
+	}
 }
 
 @media (max-width: 505px) {
@@ -1866,6 +1973,28 @@ footer {
 		left: 151px;
 		top: 127px;
 	}
+
+	.screen-6 h2 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+
+	.diagram-container {
+		max-width: 75%;
+	}
+
+	.diagram-comment img {
+		min-height: 165px;
+	}
+
+	.screen-6 .pointer-left {
+		top: 60px;
+	}
+
+	.screen-6 .pointer-right {
+		top: 60px;
+	}
 }
 
 @media (max-width: 420px) {
@@ -1889,6 +2018,36 @@ footer {
 	.screen-4 h2 {
 		font-size: 30px;
 		line-height: 35px;
+	}
+}
+
+@media (max-width: 370px) {
+
+	.screen-4 .feature-block {
+		text-align: center;
+	}
+
+	.feature-text hr{
+		width: 100%;
+	}
+
+	.comment-text {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.diagram-comment img {
+		min-height: 185px;
+	}
+
+	.screen-6 .pointer-left {
+		 top: 45px;
+		 left: -35px;
+	 }
+
+	.screen-6 .pointer-right {
+		top: 45px;
+		right: -35px;
 	}
 }
 

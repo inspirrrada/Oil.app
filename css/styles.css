@@ -382,7 +382,11 @@ h1 {
 }
 
 .screen-4 {
-	background: url("../img/bg-img_screen04.jpg") no-repeat;
+	background: url("../img/bg-img_screen04.jpg");
+}
+
+.screen-4 .container {
+	padding: 4% 8px 1% 8px;
 }
 
 .screen-4 h2 {
@@ -390,14 +394,14 @@ h1 {
 	font-size: 52px;
 	line-height: 60px;
 	margin: 0;
-	padding: 30px 0;
+	margin-bottom: 4%;
 }
 
 .screen-4 .left-block {
 	display: inline-block;
 	max-width: 49%;
 	vertical-align: top;
-	margin-right: 14px;
+	margin-right: 1%;
 }
 
 .screen-4 .right-block {
@@ -406,19 +410,24 @@ h1 {
 	vertical-align: top;
 }
 
+.features {
+	text-align: center;
+}
+
 .screen-4 .feature-block {
-	margin-bottom: 50px;
-	height: 170px;
+	margin-bottom: 11%;
+	text-align: left;
 }
 
 .screen-4 .feature-image {
 	display: inline-block;
 	vertical-align: top;
+	width: 12%;
 }
 
 .screen-4 .feature-text {
 	display: inline-block;
-	width: 85%;
+	width: 86%;
 	font-size: 23px;
 	line-height: 28px;
 	vertical-align: middle;
@@ -1280,12 +1289,36 @@ footer {
 	.screen-3 .clients {
 		width: 20%;
 	}
+
+	.screen-4 h2 {
+		font-size: 40px;
+		line-height: 44px;
+	}
+
+	.screen-4 .container {
+		padding: 4% 20px 1% 20px;
+	}
+
+}
+
+@media (max-width: 914px) {
+	.feature-block {
+		min-height: 200px;
+	}
+
 }
 
 @media (max-width: 882px) {
 	.screen-2 .adv-text {
 		font-size: 17px;
 	}
+
+	.screen-4 .feature-text,
+	.feature-text h4	{
+		font-size: 20px;
+		line-height: 25px;
+	}
+
 
 }
 
@@ -1351,6 +1384,8 @@ footer {
 		font-size: 43px;
 		line-height: 40px;
 	}
+
+
 
 
 }
@@ -1432,6 +1467,38 @@ footer {
 		font-size: 45px;
 		line-height: 40px;
 	}
+
+	.screen-4 h2 {
+		font-size: 35px;
+		line-height: 40px;
+		text-align: center;
+		margin-bottom: 8%;
+	}
+
+	.screen-4 .feature-block {
+		margin-bottom: 0;
+	}
+
+
+
+	.screen-4 .feature-block {
+		margin-bottom: 11%;
+
+}
+
+@media (max-width: 580px) {
+	.screen-4 .left-block {
+		max-width: 80%;
+	}
+
+	.screen-4 .right-block {
+		max-width: 80%;
+	}
+
+	.feature-block {
+		min-height: 180px;
+	}
+
 }
 
 @media (max-width: 560px) {
@@ -1462,6 +1529,10 @@ footer {
 	.screen-3 .clients {
 		width: 65%;
 	}
+
+	.screen-4 h2 {
+		font-size: 30px;
+		line-height: 35px;
 }
 
 	@media (max-width: 350px) {

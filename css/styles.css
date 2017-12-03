@@ -340,15 +340,15 @@ h1 {
 }
 
 .screen-3 .container {
-	padding: 70px 0;
-	height: 275px;
+	padding: 6% 0 5% 0;
+	text-align: center;
 }
 
 .screen-3 .clients {
 	display: inline-block;
-	margin-right: 24px;
+	margin-right: 2%;
 	margin-bottom: 22px;
-	width: 22%;
+	width: 23%;
 	height: 125px;
 	border: 1px solid #272727;
 	position: relative;
@@ -357,6 +357,7 @@ h1 {
 
 .screen-3 .clients:nth-child(1) {
 	border: none;
+	text-align: left;
 }
 
 .clients p {
@@ -1276,6 +1277,16 @@ footer {
 		width: 27%;
 	}
 
+	.screen-3 .clients {
+		width: 20%;
+	}
+}
+
+@media (max-width: 882px) {
+	.screen-2 .adv-text {
+		font-size: 17px;
+	}
+
 }
 
 @media (max-width: 841px) {
@@ -1297,11 +1308,10 @@ footer {
 	.adv-block {
 		height: 90px;
 	}
-}
 
-@media (max-width: 882px) {
-	.screen-2 .adv-text {
-		font-size: 17px;
+	.clients p {
+		font-size: 45px;
+		line-height: 40px;
 	}
 
 }
@@ -1337,9 +1347,10 @@ footer {
 		height: 100px;
 	}
 
-	/*.screen-2 .adv-image {*/
-		/*width: 29%;*/
-	/*}*/
+	.clients p {
+		font-size: 43px;
+		line-height: 40px;
+	}
 
 
 }
@@ -1410,6 +1421,17 @@ footer {
 
 	.screen-2 .adv-block {
 		margin-bottom: 1%;
+	}
+
+	.screen-3 .clients {
+		width: 40%;
+	}
+
+	.clients p {
+		text-align: center;
+		font-size: 45px;
+		line-height: 40px;
+	}
 }
 
 @media (max-width: 560px) {
@@ -1436,11 +1458,15 @@ footer {
 	.screen-2 .adv-block {
 		height: 120px;
 	}
+
+	.screen-3 .clients {
+		width: 65%;
+	}
 }
 
 	@media (max-width: 350px) {
 		.screen-2 .adv-block {
 			height: 150px;
 		}
-		
+
 }

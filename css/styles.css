@@ -273,38 +273,57 @@ h1 {
 	top: 40%
 }
 
+.screen-2 .container {
+	padding: 0 8px;
+	padding-top: 4%;
+}
 
 .screen-2 h2 {
 	font-weight: normal;
 	font-size: 52px;
 	line-height: 60px;
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 65px;
+	margin-bottom: 7%;
+}
+
+.advantages {
+	font-size: 0;
 }
 
 .screen-2 .left-block {
 	display: inline-block;
-	max-width: 49%;
+	max-width: 50%;
 	vertical-align: top;
 }
 
 .screen-2 .right-block {
 	display: inline-block;
-	max-width: 49%;
+	max-width: 50%;
 	vertical-align: top;
 }
 
 .screen-2 .adv-block {
-	margin-bottom: 60px;
+	margin-bottom: 12%;
 	height: 80px;
 }
 
 .screen-2 .adv-image {
 	display: inline-block;
 	width: 24%;
+	margin-right: 2%;
 	text-align: center;
 	vertical-align: middle;
+	height: 100%;
+	position: relative;
+}
+
+.adv-image img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
 }
 
 .screen-2 .adv-text {
@@ -313,6 +332,7 @@ h1 {
 	font-size: 21px;
 	line-height: 28px;
 	vertical-align: middle;
+
 }
 
 .screen-3 {
@@ -1243,6 +1263,47 @@ footer {
 		width: 50%;
 	}
 
+	.screen-2 h2 {
+		font-size: 38px;
+		line-height: 44px;
+	}
+
+	.screen-2 .adv-text {
+		font-size: 19px;
+	}
+
+	.screen-2 .adv-image {
+		width: 27%;
+	}
+
+}
+
+@media (max-width: 841px) {
+	.header-contacts {
+		margin-top: 0;
+		margin-right: 5%;
+	}
+
+	.header-logo {
+		margin-left: 5%;
+		padding: 5% 1%;
+	}
+
+
+	.screen-2 .adv-text {
+		width: 71%;
+	}
+
+	.adv-block {
+		height: 90px;
+	}
+}
+
+@media (max-width: 882px) {
+	.screen-2 .adv-text {
+		font-size: 17px;
+	}
+
 }
 
 @media (max-width: 790px) {
@@ -1264,18 +1325,23 @@ footer {
 	padding: 4% 0;
 		margin-top: 8%;
 	}
-}
 
-@media (max-width: 841px) {
-	.header-contacts {
-		margin-top: 0;
-		margin-right: 5%;
+	.form-discount p,
+	.form-discount input,
+	.form-discount button {
+		font-size: 21px;
+		line-height: 28px;
 	}
 
-	.header-logo {
-		margin-left: 5%;
-		padding: 5% 1%;
+	.screen-2 .adv-block {
+		height: 100px;
 	}
+
+	/*.screen-2 .adv-image {*/
+		/*width: 29%;*/
+	/*}*/
+
+
 }
 
 @media (max-width: 690px) {
@@ -1328,6 +1394,22 @@ footer {
 	.bottle {
 		display: none;
 	}
+
+	.screen-2 h2 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	.screen-2 .left-block {
+		max-width: 100%;
+	}
+
+	.screen-2 .right-block {
+		max-width: 100%;
+	}
+
+	.screen-2 .adv-block {
+		margin-bottom: 1%;
 }
 
 @media (max-width: 560px) {
@@ -1350,4 +1432,15 @@ footer {
 	.heading-text {
 		margin-bottom: 15%;
 	}
+
+	.screen-2 .adv-block {
+		height: 120px;
+	}
+}
+
+	@media (max-width: 350px) {
+		.screen-2 .adv-block {
+			height: 150px;
+		}
+		
 }

@@ -1395,6 +1395,7 @@ footer {
 
 	.note-block img {
 		width: 51%;
+		top: 40px;
 	}
 }
 
@@ -1530,6 +1531,7 @@ footer {
 
 	.note-block img {
 		right: -20px;
+		top: 0;
 	}
 
 
